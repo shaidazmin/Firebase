@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/signUpEmailEditText"
+            android:hint="User Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/signUpPasswordEditText"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_marginTop="10sp"
+            android:text="Sign Up"
+            android:background="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/signInTextView"
+            android:layout_marginTop="30sp"
+            android:text="Are you regstered!  Sign In here?  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressBarSignUp"
+            android:layout_marginTop="25sp"
+            android:progressTint="#2196F3"
+            android:progressBackgroundTint="#3F51B5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
